@@ -1,0 +1,55 @@
+.welcome {
+    background-color: black;
+}
+.startScreen { 
+    background-color: grey;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    filter: blur(200px);
+    height: 100vh;
+}
+
+.startText {
+    position: absolute;
+    top: 40%;
+    left: 47%;
+    font-size: 4rem;
+    color: white;
+    filter: blur(0.5px);
+}
+.startText:hover {
+    cursor: default;
+    scale: 1.1;
+}
+.startText:active {
+    scale: 0.9;
+}
+
+.startText p {
+    font-weight: bold;
+    animation-name: popup;
+    animation-duration: 3s;
+}
+
+@keyframes popup {
+    0% {
+        opacity: 0;
+    }
+    15% {
+        opacity: 0.2;
+    }
+    25% {
+        opacity: 0.4;
+    }
+    50% {
+        opacity: 0.6;
+    }
+    75% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 1;
+    }
+ 
+}
