@@ -93,7 +93,7 @@ columns.forEach((button) => {
         insertSymbol(button); //inserts X or O
         addToRow(button); //repalces empty string with X or O
         displayWinner();
-        console.log(rows);
+        console.log(rows); //logs the rows array
     })
 });
 
